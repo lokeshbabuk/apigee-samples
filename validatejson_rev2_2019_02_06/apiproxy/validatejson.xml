@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="validatejson">
+    <Basepaths>/validatejson</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1516617801262</CreatedAt>
+    <CreatedBy>lokeshbabuk@yahoo.co.in</CreatedBy>
+    <Description>json data validation against json schema</Description>
+    <DisplayName>validatejson</DisplayName>
+    <LastModifiedAt>1546668815416</LastModifiedAt>
+    <LastModifiedBy>lokeshbabuk@yahoo.co.in</LastModifiedBy>
+    <ManifestVersion>SHA-512:51c155af669ee803f6119427afd389b1ff487ba6c10fcc367d81ddb46afad6adfeed1ae8eb7318ab5dbe596cd7528e946d65eb1d9709b14d4dc021b010419778</ManifestVersion>
+    <Policies>
+        <Policy>InvalidJsonRequest</Policy>
+        <Policy>ValidateRequest</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://JsonSchema.js</Resource>
+        <Resource>jsc://ValidateJsonRequest.js</Resource>
+        <Resource>jsc://tv4.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>

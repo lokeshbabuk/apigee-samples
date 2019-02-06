@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="InvalidJsonRequest" version="SHA-512:6fe64b1c5225420dfb98ae3da901f55595eb4fae6dbe84b51312530e8709d6ff6e05f8ebda71f8034f447447a6580d6872884f4ced5cb621fc09f077cca4d962"/>
+        <VersionInfo resourceName="ValidateRequest" version="SHA-512:c00bfa9ebcabb0a3ac879771472cc98a465be1940747575358ae184e73d6474f9ed3931081b50d3df9227fc1b5f6a85b5c5242062a6c770771585fc1793a7a1e"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:20514ec53a62ce5c380875688d1410717abf3520258bb8bdde22ab7605e1ea6c690f917b4bef046e93dc0f18f74ae14f05501bae054c3935215730eb2338743e"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://JsonSchema.js" version="SHA-512:05259ec04c881f1b61089bd8582babc521f753cde1a031b6298c4d4c068a3fbf5811fdb18059dc1b0dfb713fb8ba54e5643b2425341e3e30426988ed20536262"/>
+        <VersionInfo resourceName="jsc://ValidateJsonRequest.js" version="SHA-512:f3a82ffe7d86aa476c24724849f3843b02f32c01138f6232066d8713e05c02ff51dc095da8c69d113004a2ced8ed155676c6dca1865711e75b9e78a4f069e1d1"/>
+        <VersionInfo resourceName="jsc://tv4.js" version="SHA-512:b51bb8d32360d9eef4ed2a73cce3baf4b4a30dffbb44503c459dacfa7017177edc1247c7d8e7cadccbc9de482c74fa7bdae07170d1ece7fe117a8d53c4853d43"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints/>
+</Manifest>

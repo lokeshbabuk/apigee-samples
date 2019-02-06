@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RaiseFault async="false" continueOnError="false" enabled="true" name="InvalidJsonRequest">
+    <DisplayName>InvalidJsonRequest</DisplayName>
+    <Properties/>
+    <FaultResponse>
+        <Set>
+            <!--            <Headers/>
+            <Payload contentType="application/json"/>
+            <StatusCode>500</StatusCode>
+            <ReasonPhrase>Server Error</ReasonPhrase>-->
+            <Payload contentType="application/json">{result}</Payload>
+        </Set>
+    </FaultResponse>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</RaiseFault>
